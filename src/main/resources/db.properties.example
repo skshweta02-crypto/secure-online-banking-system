@@ -1,0 +1,7 @@
+# Database Connection Configuration Template
+# Copy this file to src/main/resources/db.properties or set environment variables:
+# DB_URL, DB_USER, DB_PASSWORD
+
+db.url=jdbc:mysql://localhost:3306/secure_banking?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&characterEncoding=UTF-8
+db.user=root
+db.password=your_password_here
